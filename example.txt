@@ -14,3 +14,8 @@ A commit is a snapshot of how your work looks at a certain point in time if we n
 
 ********** ADD NEW FILES TO REPO
 Added a new file to the Repo as an example
+
+*********USE GIT LOG
+git -log --summary to see information about youe commits 
+
+
