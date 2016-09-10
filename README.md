@@ -66,6 +66,9 @@ you can use branches to segment your work and only commit once that section is d
 
 use git checkout -b branch_name to create and move to a new branch
 
+When Branching and You want to add a new branch on the server repo remember to use
+git push --set-upstream origin example_branch
+
 
 ************* REMOVING THINGS
 
@@ -74,5 +77,24 @@ Use git rm '*.*' to remove all the things in your repo
 or git rm -r folder
 to remove a specific directory  or you can use a filename to remove just on file
 
+Remember when you remove things you should also commit your changes
 
-************
+also you can use the -a flag to make sure deleted files are auto removed
+
+********PULL REQUESTS
+If you're hosting your repo on GitHub, you can do something called a pull request.
+A pull request allows the boss of the project to look through your changes and make comments before deciding to merge in the change. It's a really great feature that is used all the time for remote workers and open-source projects.
+Check out the pull request help page for more information.
+
+
+
+********** MERGING BRANCHES
+
+use git merge example_branch
+
+ to merge example_branch to master
+
+Merge Conflicts
+Merge Conflicts can occur when changes are made to a file at the same time. A lot of people get really scared when a conflict happens, but fear not! They aren't that scary, you just need to decide which code to keep.
+Merge conflicts are beyond the scope of this course, but if you're interested in reading more, take a look the section of the Pro Git book on how conflicts are presented.
+>>>>>>> example_branch
