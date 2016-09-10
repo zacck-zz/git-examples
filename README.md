@@ -47,3 +47,7 @@ The HEAD is a pointer that holds your position within all your different commits
 ******* USING GIT DIFF
 
 use -- staged to check what files have been changed and staged
+
+****** UNSTAGING
+
+oh oh you messed up you can unstage files using git reset command
