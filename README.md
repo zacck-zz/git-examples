@@ -22,4 +22,8 @@ git -log --summary to see information about youe commits
 
 ********* ADD A REMOTE TO YOUR GIT 
 git doesnt care what your remote names are 
-but typically you name your main one origin
+but typically you name your main one origin  
+
+
+********   HOOKS
+You can use hooks to push your code to a server or a production build hosted somewhere. Whenever you push to your master instead of using an ftp or ssh client.
