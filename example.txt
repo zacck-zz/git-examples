@@ -1,0 +1,6 @@
+Hello There
+
+************
+You can Use git add -A . to add all files to the re repo to the staging area
+
+You can use git reset <filename> to remove files from the staging area
