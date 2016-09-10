@@ -51,3 +51,9 @@ use -- staged to check what files have been changed and staged
 ****** UNSTAGING
 
 oh oh you messed up you can unstage files using git reset command
+
+
+*********** UNDO
+So you were fractally wrong and you want to go back before this whole mess
+files can be changed back using
+git checkout --target
