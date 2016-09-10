@@ -43,3 +43,7 @@ to reapply uncommitted changes after pull
 use git diff HEAD to check what changes we made during our last commit
 
 The HEAD is a pointer that holds your position within all your different commits by default it points to the most recent commit without having to use the SHA
+
+******* USING GIT DIFF
+
+use -- staged to check what files have been changed and staged
