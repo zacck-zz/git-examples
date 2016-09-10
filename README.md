@@ -66,6 +66,9 @@ you can use branches to segment your work and only commit once that section is d
 
 use git checkout -b branch_name to create and move to a new branch
 
+When Branching and You want to add a new branch on the server repo remember to use
+git push --set-upstream origin example_branch
+
 
 ************* REMOVING THINGS
 
@@ -75,4 +78,6 @@ or git rm -r folder
 to remove a specific directory  or you can use a filename to remove just on file
 
 
-Remember when you remove things you shoulc also commit your changes
+Remember when you remove things you should also commit your changes
+
+also you can use the -a flag to make sure deleted files are auto removed
