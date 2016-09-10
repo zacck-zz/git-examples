@@ -1,6 +1,13 @@
 Hello There
 
-************
+************ ADDING FILES 
 You can Use git add -A . to add all files to the re repo to the staging area
 
-You can use git reset <filename> to remove files from the staging area
+You can use git reset <filename> to remove files from the staging area.
+
+
+************ ADDING FILES TO STAGING 
+staging area a place to put completed little taskss before combining them to your other work by "committing"
+
+A commit is a snapshot of how your work looks at a certain point in time if we need to see chabes we made or someone else does
+
