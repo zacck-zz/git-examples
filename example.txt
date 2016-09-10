@@ -11,3 +11,6 @@ staging area a place to put completed little taskss before combining them to you
 
 A commit is a snapshot of how your work looks at a certain point in time if we need to see chabes we made or someone else does
 
+
+********** ADD NEW FILES TO REPO
+Added a new file to the Repo as an example
