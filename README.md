@@ -56,4 +56,20 @@ oh oh you messed up you can unstage files using git reset command
 *********** UNDO
 So you were fractally wrong and you want to go back before this whole mess
 files can be changed back using
-git checkout --target
+git checkout -- target
+          ^^^^ not the space betweeen the pointers and file name
+
+*********** USING BRANCHES
+Branches are what naturally happens when you want to work on multiple features at the same time. You wouldn't want to end up with a master branch which has Feature A half done and Feature B half done.
+
+you can use branches to segment your work and only commit once that section is done
+
+use git checkout -b branch_name to create and move to a new branch
+
+
+************* REMOVING THINGS
+
+Use git rm '*.*' to remove all the things in your repo
+
+or git rm -r folder
+to remove a specific directory  or you can use a filename to remove just on file
