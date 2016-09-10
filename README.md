@@ -73,3 +73,6 @@ Use git rm '*.*' to remove all the things in your repo
 
 or git rm -r folder
 to remove a specific directory  or you can use a filename to remove just on file
+
+
+Remember when you remove things you shoulc also commit your changes
