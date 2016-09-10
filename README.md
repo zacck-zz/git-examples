@@ -1,3 +1,5 @@
+# git-examples
+
 Hello There
 
 ************ ADDING FILES 
@@ -18,4 +20,6 @@ Added a new file to the Repo as an example
 *********USE GIT LOG
 git -log --summary to see information about youe commits 
 
-
+********* ADD A REMOTE TO YOUR GIT 
+git doesnt care what your remote names are 
+but typically you name your main one origin
